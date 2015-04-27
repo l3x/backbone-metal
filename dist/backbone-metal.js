@@ -1,6 +1,6 @@
 (function (global, factory) {
-  typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('underscore'), require('backbone')) :
-  typeof define === 'function' && define.amd ? define(['underscore', 'backbone'], factory) :
+  typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('lodash'), require('backbone')) :
+  typeof define === 'function' && define.amd ? define(['lodash', 'backbone'], factory) :
   global.Metal = factory(global._, global.Backbone)
 }(this, function (_, Backbone) { 'use strict';
 

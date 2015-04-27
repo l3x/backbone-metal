@@ -1,6 +1,6 @@
 global.Metal = require('../src/' + require('../package').name);
 
-var _ = require('underscore');
+var _ = require('lodash');
 var chai = require('chai');
 var sinon = require('sinon');
 chai.use(require('sinon-chai'));
